@@ -1,25 +1,7 @@
-import java.util.*;
+# Java Practice - Class 9
 
-class PrimeNumber
-{
-    public static void main(String args[])
-    {
-        Scanner sc = new Scanner(System.in);
+This repository contains my Java programs and projects
+as I learn programming from Class 9 onwards.
 
-        System.out.print("Enter a number: ");
-        int n = sc.nextInt();
-
-        int c = 0;
-
-        for(int i = 1; i <= n; i++)
-        {
-            if(n % i == 0)
-                c++;
-        }
-
-        if(c == 2)
-            System.out.println("Prime number");
-        else
-            System.out.println("Not a prime number");
-    }
-}
+I am focusing on Java, problem-solving, logical reasoning,
+and gradually building my computer science skills.
